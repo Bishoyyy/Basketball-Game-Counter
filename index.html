@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Game Counter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="Images/Basketball.png">
+</head>
+
+<body>
+    <h2 id="page-title">🏀 Basketball Game Counter</h2>
+    <div id="box">
+        <div class="col-wrapper">
+            <div class="container-col">
+                <h3 class="title">HOME</h3>
+                <div class="counter-home">0</div>
+                <div class="buttons">
+                    <button class="btn" onclick="addOneHome()">+1</button>
+                    <button class="btn" onclick="addTwoHome()">+2</button>
+                    <button class="btn" onclick="addThreeHome()">+3</button>
+                </div>
+            </div>
+            <div class="container-col">
+                <h3 class="title">GUEST</h3>
+                <div class="counter-guest">0</div>
+                <div class="buttons">
+                    <button class="btn" onclick="addOneGuest()">+1</button>
+                    <button class="btn" onclick="addTwoGuest()">+2</button>
+                    <button class="btn" onclick="addThreeGuest()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div id="reset-div">
+            <button class="btn" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
